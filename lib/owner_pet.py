@@ -28,6 +28,3 @@ class Owner:
         if not isinstance(pet, Pet):
             raise Exception("Only Pet instances can be added.")
         pet.owner = self  
-
-    def get_sorted_pets(self):
-        return sorted(self.pets(), key=lambda pet: pet.name)
