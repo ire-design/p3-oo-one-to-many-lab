@@ -31,3 +31,6 @@ class Owner:
 
     def get_sorted_pets(self):
         return sorted(self.pets(), key=lambda pet: pet.name)
+    
+    def get_pets(self):
+        pass
